@@ -95,7 +95,7 @@ body{
   border: 0px;
   cursor: pointer;
 }
-.feature-section{
+.feature-section{  
   text-align: center;
   background-color: var(--main-background-beige);
 }
@@ -171,11 +171,15 @@ body{
 .menu-section{
   background-color: var(--main-background-beige);
 }
+.menu-section-list-item{
+    display: inline-flex;
+}
 .menu-section-button{
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   background: var(--main-background-semi-light);
   border: 0;
+  padding: 7px 15px;
   border-radius: 4px;
 }
 .menu-section-button:hover, .menu-section-button:focus, .menu-section-button:active{
