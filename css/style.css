@@ -274,6 +274,9 @@ ul {
 .footer-section{
   background-color: var(--main-background-dark);
 }
+.footer{
+  width: 250px;
+}
 .footer-address-info{
   font-weight: 400;
   font-size: 14px;
