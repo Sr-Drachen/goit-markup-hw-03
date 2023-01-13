@@ -257,7 +257,7 @@ p{
   list-style: none;
 }
 .team-section-item {
-  flex-basis: calc((100% - 40px) / 5);
+  flex-basis: calc((100% - 100px) / 4);
 }
 .team-section-item{
   width: 270px;
