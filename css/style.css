@@ -37,16 +37,15 @@ body{
 }
 .menu-nav{
   display: flex;
+  margin-right: auto;
   align-items: center;
 }
 .menu-list-item:not(:last-child){
   margin-right: 50px;
 }
-.contact-list{
-  margin-left: auto;
-  text-align: center;
-}
+
 .contact-list-item:not(:last-child){
+  margin-left: auto;
   margin-right: 50px;
 }
 
