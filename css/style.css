@@ -33,19 +33,20 @@ body{
 }
 .header-container{
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .menu-nav{
   display: flex;
-  margin-right: auto;
   align-items: center;
 }
 .menu-list-item:not(:last-child){
   margin-right: 50px;
 }
-
-.contact-list-item:not(:last-child){
+.contact-list{
   margin-left: auto;
+}
+.contact-list-item:not(:last-child){
   margin-right: 50px;
 }
 
